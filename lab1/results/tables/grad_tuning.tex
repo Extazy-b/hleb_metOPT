@@ -1,0 +1,28 @@
+\begin{longtable}{|c|c|c|c|c|c|}
+\caption{Влияние начального шага $t$ на метод с дроблением шага.}\label{tab:grad_tuning}\\
+\hline
+Функция & $t$ & $f(x)$ & Итерации & Вызовы $f$ & Причина остановки \\
+\hline
+\endfirsthead
+\hline
+Функция & $t$ & $f(x)$ & Итерации & Вызовы $f$ & Причина остановки \\
+\hline
+\endhead
+Adjiman & 0.1 & -0.994944 & 97 & 582 & func\_shift \\
+Adjiman & 1 & -0.994945 & 8 & 48 & func\_shift \\
+Adjiman & 10 & -2.021807 & 8 & 80 & func\_shift \\
+Adjiman & 100 & -2.021807 & 13 & 170 & func\_shift \\
+Ackley 2 & 0.1 & -200.000000 & 15 & 197 & point\_shift \\
+Ackley 2 & 1 & -200.000000 & 15 & 259 & point\_shift \\
+Ackley 2 & 10 & -199.999999 & 38 & 912 & func\_shift \\
+Ackley 2 & 100 & -200.000000 & 12 & 295 & point\_shift \\
+Schaffer N.2 & 0.1 & 0.000250 & 5209 & 31254 & func\_shift \\
+Schaffer N.2 & 1 & 0.000025 & 1097 & 6582 & func\_shift \\
+Schaffer N.2 & 10 & 0.000002 & 167 & 1002 & func\_shift \\
+Schaffer N.2 & 100 & 0.000000 & 21 & 126 & func\_shift \\
+Rosenbrock & 0.1 & 0.007455 & 2484 & 29718 & func\_shift \\
+Rosenbrock & 1 & 0.372295 & 50 & 777 & func\_shift \\
+Rosenbrock & 10 & 0.003195 & 1009 & 17725 & func\_shift \\
+Rosenbrock & 100 & 0.001120 & 47 & 1017 & func\_shift \\
+\hline
+\end{longtable}

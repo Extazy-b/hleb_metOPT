@@ -1,0 +1,24 @@
+\begin{longtable}{|c|c|c|c|c|c|}
+\caption{Влияние точности одномерного поиска на метод с линейным поиском.}\label{tab:fast_tuning}\\
+\hline
+Функция & $\varepsilon_{ls}$ & $f(x)$ & Итерации & Вызовы $f$ & Причина остановки \\
+\hline
+\endfirsthead
+\hline
+Функция & $\varepsilon_{ls}$ & $f(x)$ & Итерации & Вызовы $f$ & Причина остановки \\
+\hline
+\endhead
+Adjiman & 1e-03 & -0.994945 & 2 & 54 & func\_shift \\
+Adjiman & 1e-05 & -0.994945 & 2 & 74 & func\_shift \\
+Adjiman & 1e-07 & -0.994945 & 2 & 90 & point\_shift \\
+Ackley 2 & 1e-03 & -199.996820 & 10000 & 250000 & max\_iter \\
+Ackley 2 & 1e-05 & -199.999999 & 32 & 1088 & func\_shift \\
+Ackley 2 & 1e-07 & -200.000000 & 2 & 88 & point\_shift \\
+Schaffer N.2 & 1e-03 & 0.000000 & 1 & 53 & grad\_norm \\
+Schaffer N.2 & 1e-05 & 0.000000 & 1 & 63 & grad\_norm \\
+Schaffer N.2 & 1e-07 & 0.000000 & 1 & 72 & grad\_norm \\
+Rosenbrock & 1e-03 & 40036.000000 & 10000 & 259998 & max\_iter \\
+Rosenbrock & 1e-05 & 40036.000000 & 10000 & 354997 & max\_iter \\
+Rosenbrock & 1e-07 & 40036.000000 & 10000 & 449998 & max\_iter \\
+\hline
+\end{longtable}
